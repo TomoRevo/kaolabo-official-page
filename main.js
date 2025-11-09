@@ -283,7 +283,7 @@ document.querySelector('#app').innerHTML = `
         </div>
 
         <div class="step-arrow fade-in">
-          <p class="arrow-simple-text">▼ さらにスキルアップして講師として活躍したい方へ</p>
+          <p class="arrow-simple-text">マインドアップ美顔ヨガ講座受講後、<br>更にスキルアップして講師として活躍したい方へ<br><br>▼　　▼　　▼</p>
         </div>
 
         <div class="course-step fade-in">
