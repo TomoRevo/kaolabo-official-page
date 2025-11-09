@@ -207,7 +207,7 @@ document.querySelector('#app').innerHTML = `
             <div class="course-header">
               <div class="course-title-box">
                 <h3 class="course-main-title">マインドアップ美顔ヨガ講座</h3>
-                <p class="course-period">2ヶ月間 / 全5回のグループレッスン</p>
+                <p class="course-period">約3ヶ月間 / 全6回のグループレッスン</p>
               </div>
             </div>
 
@@ -267,7 +267,8 @@ document.querySelector('#app').innerHTML = `
         </div>
 
         <div class="step-arrow fade-in">
-          <p class="arrow-simple-text">マインドアップ美顔ヨガ講座受講後、<br>更にスキルアップして講師として活躍したい方へ<br><br>▼　　▼　　▼</p>
+          <p class="arrow-simple-text">さらにステップアップして講師として活躍したい方は、<br>講座卒業後に講師養成講座をご受講いただけます。
+(卒業時にご案内します)<br><br>▼　　▼　　▼</p>
         </div>
 
         <div class="course-step fade-in">
@@ -315,35 +316,10 @@ document.querySelector('#app').innerHTML = `
               </div>
             </div>
 
-            <div class="course-schedule-box">
-              <h4>📅 開講日程</h4>
-              <div class="schedule-columns">
-                <div class="schedule-column">
-                  <h5>火曜日夜コース 20:00〜22:00</h5>
-                 
-                  <h5>金曜日朝コース 10:00〜12:00</h5>
-                  
-                </div>
-              </div>
-              <p class="course-note">火⇔金の振替可能、アーカイブ参加あり</p>
-            </div>
+        
 
-            <div class="course-price-box">
-              <div class="price-highlight">
-                <span class="price-label">受講料</span>
-                <span class="price-amount">165,000<span class="price-unit">円</span></span>
-                <span class="price-tax">（税込）</span>
-              </div>
-            </div>
 
-            <div class="course-goal">
-              <h4>このコース修了後に実現できること</h4>
-              <ul>
-                <li>自分で講座を開講し、生徒さんに教えられるように</li>
-                <li>副業や独立として、顔ヨガ講師として活動可能</li>
-                <li>自分らしい働き方で収入を得て自立した女性に</li>
-              </ul>
-            </div>
+           
           </div>
         </div>
       </div>
@@ -424,7 +400,7 @@ document.querySelector('#app').innerHTML = `
           自分らしく生きられる。<br><br>
           そんな人生を、一緒に歩みませんか？
         </p>
-        <a href="https://univa.cc/7aUFJV" target="_blank" class="cta-button">顔laboに参加する</a>
+        <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA" target="_blank" class="cta-button">顔laboに参加する</a>
         
       </div>
     </div>
