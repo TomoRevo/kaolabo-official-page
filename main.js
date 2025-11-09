@@ -1,4 +1,3 @@
-import './style.css'
 
 document.querySelector('#app').innerHTML = `
   <section class="hero">
@@ -11,7 +10,7 @@ document.querySelector('#app').innerHTML = `
       <br>
 
       <div class="hero-video-thumbnail" id="videoThumbnail">
-        <img src="./kaolabo-official-page/VSLサムネ.png" alt="動画サムネイル" class="video-thumbnail-img">
+        <img src="./img/VSLサムネ.png" alt="動画サムネイル" class="video-thumbnail-img">
         <div class="play-button">
           <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
             <circle cx="40" cy="40" r="40" fill="rgba(255, 255, 255, 0.9)"/>
@@ -25,7 +24,7 @@ document.querySelector('#app').innerHTML = `
         <div class="video-modal-content">
           <button class="video-modal-close" id="videoModalClose">×</button>
           <video controls id="modalVideo" class="modal-video-player">
-            <source src="./kaolabo-official-page/顔laboLP用VSL.mp4" type="video/mp4">
+            <source src="./video/顔laboLP用VSL.mp4" type="video/mp4">
             お使いのブラウザは動画タグに対応していません。
           </video>
         </div>
@@ -56,7 +55,7 @@ document.querySelector('#app').innerHTML = `
         </div>
 
         <div class="before-after-images">
-          <img src="./kaolabo-official-page/biforeAfter.jpg" alt="顔ヨガのビフォーアフター" class="before-after-image">
+          <img src="./img/biforeAfter.jpg" alt="顔ヨガのビフォーアフター" class="before-after-image">
         </div>
 
         <p class="before-after-caption">表情が変わると、気持ちまで変わるんです♡</p>
@@ -85,7 +84,7 @@ document.querySelector('#app').innerHTML = `
 
 
         <div class="story-realization">
-         <img src="./kaolabo-official-page/悩み1.png" alt="悩む女性" class="story-worry-image" />
+         <img src="./img/悩み1.png" alt="悩む女性" class="story-worry-image" />
           <p>私も同じでした。<br>「私には何が残っているんだろう」<br>そんな不安でいっぱいの時、美容の仕事と出会いました。</p>
           <br>
           <p>顔ヨガを学び、表情筋を鍛えることで<br>顔が変わり、心も変わっていきました。</p>
@@ -98,7 +97,7 @@ document.querySelector('#app').innerHTML = `
         </div>
 
         <div class="story-reflection">
-        <p><img src="./kaolabo-official-page/S__38297608.jpg" alt="輝く未来" class="story-future-image" /></p>
+        <p><img src="./img/S__38297608.jpg" alt="輝く未来" class="story-future-image" /></p>
           <p>何歳になっても女性はいつまでも輝けます。</p>
           <br>
           <p>「もう遅い」なんて、ありません。<br>今からでも、十分間に合います。</p>
@@ -166,7 +165,7 @@ document.querySelector('#app').innerHTML = `
       <div class="instructor-card fade-in">
         <div class="instructor-image">
           <div class="instructor-photo">
-            <img src="./kaolabo-official-page/講師紹介.jpg" alt="講師 ちひろ">
+            <img src="./img/講師紹介.jpg" alt="講師 ちひろ">
           </div>
           <div class="instructor-name-box instructor-name-box-desktop">
             <h3 class="instructor-name">ちひろ</h3>
