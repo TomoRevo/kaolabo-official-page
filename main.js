@@ -43,9 +43,9 @@ document.querySelector('#app').innerHTML = `
 
           <p class="emphasis-text">でも…表情筋も筋肉。<br>使わないとどんどん衰えてしまうんです。</p>
 
-          <p>同じ筋肉ばかりを使ってしまうと、<br>「表情ぐせ」がついて<span class="highlight-text">シワやたるみの原因</span>に。</p>
+          <p>同じ筋肉ばかりを使ってしまうと、「表情ぐせ」がついて<span class="highlight-text">シワやたるみの原因</span>に。</p>
 
-          <p class="solution-text">→ 顔ヨガでバランスよく筋肉を動かすことで、<br>表情も気持ちも前向きに整えられます◎</p>
+          <p class="solution-text">顔ヨガでバランスよく筋肉を動かすことで、表情も気持ちも前向きに整えられます◎</p>
         </div>
       </div>
 
@@ -87,13 +87,13 @@ document.querySelector('#app').innerHTML = `
          <img src="./img/悩み1.png" alt="悩む女性" class="story-worry-image" />
           <p>私も同じでした。<br>「私には何が残っているんだろう」<br>そんな不安でいっぱいの時、美容の仕事と出会いました。</p>
           <br>
-          <p>顔ヨガを学び、表情筋を鍛えることで<br>顔が変わり、心も変わっていきました。</p>
+          <p>顔ヨガを学び、表情筋を鍛えることで顔が変わり、心も変わっていきました。</p>
           <br>
           <p>「私もまだまだこれからだ」<br>そう思えた時、人生が動き始めたんです。</p>
         </div>
 
         <div class="story-highlight">
-          <p>今、私は同じように悩んでいる女性たちに<br>「あなたも変われる」と伝えたいと思っています。</p>
+          <p>今、私は同じように悩んでいる女性たちに「あなたも変われる」と伝えたいと思っています。</p>
         </div>
 
         <div class="story-reflection">
@@ -104,7 +104,7 @@ document.querySelector('#app').innerHTML = `
           <br>
           <p><span class="highlight-text">顔が変われば、気持ちが変わる。<br>気持ちが変われば、人生が変わる。</span></p>
           <br>
-          <p>そして、この講座では綺麗になるだけじゃなく、<br>講師として活動する道もご用意しています。<br>自分の好きなことで、誰かを笑顔にできる。<br>そんな人生を、一緒に歩みませんか？</p>
+          <p>そして、この講座では綺麗になるだけじゃなく、講師として活動する道もご用意しています。<br>自分の好きなことで、誰かを笑顔にできる。<br>そんな人生を、一緒に歩みませんか？</p>
           <br>
           <p><span class="highlight-text">お顔も心も上げて、自分史上最高に可愛い自分に出会いましょう♡</span></p>
         </div>
@@ -160,7 +160,6 @@ document.querySelector('#app').innerHTML = `
   <section id="about" class="section instructor">
     <div class="container">
       <h2 class="section-title">講師紹介</h2>
-      <p class="section-subtitle">あなたの「もう一度輝きたい」を心から応援します</p>
 
       <div class="instructor-card fade-in">
         <div class="instructor-image">
@@ -180,11 +179,11 @@ document.querySelector('#app').innerHTML = `
           </div>
 
           <div class="instructor-bio">
-            <p class="bio-intro">元パート時給970円のエステティシャンから、<br>今ではサロンオーナーとして、<br>多くの女性の人生に寄り添う毎日を送っています。</p>
+            <p class="bio-intro">元パート時給970円のエステティシャンから、今ではサロンオーナーとして多くの女性の人生に寄り添う毎日を送っています。</p>
             <br>
-            <p class="bio-turning-point">コロナ禍で心身ともに限界を感じていた私を変えてくれたのが、<br>他でもない「<span class="highlight-keyword">顔ヨガ</span>」でした。</p>
+            <p class="bio-turning-point">コロナ禍で心身ともに限界を感じていた私を変えてくれたのが、他でもない「<span class="highlight-keyword">顔ヨガ</span>」でした。</p>
             <br>
-            <p class="bio-philosophy">表情が変わると、マインドも変わり<br>自分を大切にできるようになります。</p>
+            <p class="bio-philosophy">表情が変わると、マインドも変わり自分を大切にできるようになります。</p>
             <br>
             <p class="bio-results">今では、ありがたいことに<br><span class="voice-quote">「自分のことが好きになれた」</span><br><span class="voice-quote">「理想の働き方が叶った」</span><br>そんな声がたくさん届いています。</p>
             <br>
@@ -208,7 +207,7 @@ document.querySelector('#app').innerHTML = `
             <div class="course-header">
               <div class="course-title-box">
                 <h3 class="course-main-title">マインドアップ美顔ヨガ講座</h3>
-                <p class="course-period">2ヶ月間 / 全4回のグループレッスン</p>
+                <p class="course-period">2ヶ月間 / 全5回のグループレッスン</p>
               </div>
             </div>
 
@@ -248,25 +247,10 @@ document.querySelector('#app').innerHTML = `
               <div class="schedule-columns">
                 <div class="schedule-column">
                   <h5>水曜日夜コース 20:00〜21:30</h5>
-                  <ul class="schedule-dates">
-                    <li>①12月24日</li>
-                    <li>②1月7日</li>
-                    <li>③1月21日</li>
-                    <li>④2月4日</li>
-                    <li>⑤2月18日</li>
-                    <li>⑥パーソナル60分</li>
-                  </ul>
-                </div>
-                <div class="schedule-column">
+                 
+               
                   <h5>土曜日朝コース 10:00〜11:30</h5>
-                  <ul class="schedule-dates">
-                    <li>①12月27日</li>
-                    <li>②1月10日</li>
-                    <li>③1月24日</li>
-                    <li>④2月7日</li>
-                    <li>⑤2月21日</li>
-                    <li>⑥パーソナル60分</li>
-                  </ul>
+                 
                 </div>
               </div>
               <p class="course-note">水⇔土の振替可能、アーカイブ参加あり<br>基本ポーズ動画プレゼント付き</p>
@@ -329,10 +313,6 @@ document.querySelector('#app').innerHTML = `
                 <span class="lesson-number">第4回</span>
                 <span class="lesson-title">講師養成テスト・活動案内・撮影</span>
               </div>
-              <div class="lesson-item">
-                <span class="lesson-number">パーソナル</span>
-                <span class="lesson-title">講師による個別レッスン</span>
-              </div>
             </div>
 
             <div class="course-schedule-box">
@@ -340,21 +320,9 @@ document.querySelector('#app').innerHTML = `
               <div class="schedule-columns">
                 <div class="schedule-column">
                   <h5>火曜日夜コース 20:00〜22:00</h5>
-                  <ul class="schedule-dates">
-                    <li>①2月24日</li>
-                    <li>②3月3日</li>
-                    <li>③3月17日</li>
-                    <li>④3月24日</li>
-                  </ul>
-                </div>
-                <div class="schedule-column">
+                 
                   <h5>金曜日朝コース 10:00〜12:00</h5>
-                  <ul class="schedule-dates">
-                    <li>①2月27日</li>
-                    <li>②3月6日</li>
-                    <li>③3月20日</li>
-                    <li>④3月27日</li>
-                  </ul>
+                  
                 </div>
               </div>
               <p class="course-note">火⇔金の振替可能、アーカイブ参加あり</p>
