@@ -443,7 +443,7 @@ document.querySelector('#app').innerHTML = `
   <section class="section cta-final">
     <div class="container">
       <div class="cta-final-box">
-        <h2 class="cta-final-title">あなたの「可愛くなりたい」を応援します</h2>
+        <h2 class="cta-final-title">あなたの<br>「可愛くなりたい」<br>を応援します</h2>
         <p class="cta-final-text">
           これまで頑張ってきたあなただからこそ、<br>
           今度は自分を大切にする番です。<br><br>

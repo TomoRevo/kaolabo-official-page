@@ -27,8 +27,23 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 16px; /* デフォを少し広げたいならここ調整 */
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 12px; /* ←ここを減らすと横幅が広く見える */
+  }
+}
+
+@media (max-width: 768px) {
+  section,
+  .section {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
 
 .hero {
   background: linear-gradient(135deg, #fef5f1 0%, #f4e8dc 100%);
@@ -823,7 +838,6 @@ body {
   height: 250px;
   overflow: hidden;
   border-radius: 20px 20px 0 0;
-  padding-top: 20px;
   background-color: var(--color-white);
 }
 
@@ -1325,7 +1339,7 @@ body {
   font-size: 32px;
   font-weight: 700;
   color: var(--color-brown);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   line-height: 1.6;
 }
 
@@ -1333,7 +1347,7 @@ body {
   font-size: 16px;
   line-height: 2.2;
   color: var(--color-text);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .cta-note {
@@ -1410,7 +1424,6 @@ body {
   box-shadow: 0 10px 30px rgba(212, 165, 116, 0.3);
   border: none;
   cursor: pointer;
-  margin-top: 20px;
   position: relative;
   overflow: hidden;
   animation: pulse 2s ease-in-out infinite;
@@ -2430,5 +2443,45 @@ body {
 
   .course-info {
     padding: 25px 20px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  /* コンテナ全体を少し広げる */
+  .container {
+    padding: 0 12px;
+  }
+
+  /* 各セクションも左右を詰める */
+  .section {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  /* 受講生の声：テキスト領域を最大化 */
+  .testimonial-card {
+    flex-direction: column; /* 縦並びにする */
+    align-items: center;
+  }
+
+  .testimonial-content {
+    width: 100%; /* ←これが最重要 */
+    max-width: none;
+    padding: 10px; /* 少しだけ余白を残す */
+    text-align: left;
+  }
+
+  /* 画像を中央寄せ＆幅調整 */
+  .testimonial-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+
+  /* テキストの段落間隔を少し広げて読みやすく */
+  .testimonial-text {
+    line-height: 1.8;
+    font-size: 0.95rem;
   }
 }
