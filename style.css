@@ -2488,3 +2488,43 @@ body {
     font-size: 0.95rem;
   }
 }
+
+.personal-lesson-note {
+  background-color: #fbf9f7;
+  border-radius: 20px;
+  padding: 40px 50px;
+  margin: 60px auto;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(212, 165, 116, 0.08);
+  border-left: 6px solid var(--color-secondary);
+}
+
+/* タイトル */
+.personal-lesson-title {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-brown);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.personal-lesson-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* 本文 */
+.personal-lesson-text {
+  font-size: 16px;
+  color: var(--color-text);
+  line-height: 1.8;
+  margin: 0 auto;
+  max-width: 650px;
+}

@@ -348,12 +348,14 @@ document.querySelector('#app').innerHTML = `
         </div>
       </div>
 
-      <div class="personal-lesson-note fade-in">
-        <p class="personal-lesson-text">
-          人前で話すのが苦手な方、大勢が苦手な方、どうしてもパーソナルで受講したい方は、<br>
-          完全パーソナルレッスンでの受講も可能です。お気軽に個別でメッセージください。
-        </p>
-      </div>
+     <div class="personal-lesson-note fade-in">
+  <h3 class="personal-lesson-title">個別レッスンをご希望される方</h3>
+  <p class="personal-lesson-text">
+    人前で話すのが苦手な方、大勢が苦手な方、どうしてもパーソナルで受講したい方は、<br>
+    完全パーソナルレッスンでの受講も可能です。お気軽に個別でメッセージください。
+  </p>
+</div>
+
     </div>
   </section>
 
