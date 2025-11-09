@@ -33,7 +33,7 @@
 
   <section class="section what-is">
     <div class="container">
-      <h2 class="section-title">顔ヨガとは</h2>
+      <h2 class="section-title">顔ヨガって？</h2>
       <div class="what-is-content">
         <p class="what-is-definition">顔ヨガとは、お顔の<span class="highlight-text">表情筋を鍛えてストレッチ</span>することです。</p>
 
@@ -453,7 +453,7 @@
           自分らしく生きられる。<br><br>
           そんな人生を、一緒に歩みませんか？
         </p>
-        <button class="cta-button" onclick="alert('お申込みフォームへ遷移します')">顔laboに参加する</button>
+        <a href="https://univa.cc/7aUFJV" target="_blank" class="cta-button">顔laboに参加する</a>
         
       </div>
     </div>
