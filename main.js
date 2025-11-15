@@ -243,10 +243,7 @@ document.querySelector('#app').innerHTML = `
             </div>
 
             <div class="course-schedule-box">
-              <h4>📅 開講日程</h4>
-              <div class="schedule-columns">
-                <div class="schedule-column">
-                 <div class="course-schedule-box">
+          
   <h4>📅 開講日程</h4>
 
   <div class="schedule-columns">
@@ -281,11 +278,7 @@ document.querySelector('#app').innerHTML = `
   </p>
 </div>
 
-                 
-                </div>
-              </div>
-              <p class="course-note">水⇔土の振替可能、アーカイブ参加あり<br>基本ポーズ動画プレゼント付き</p>
-            </div>
+        
 
             <div class="course-price-box">
               <div class="price-highlight">
