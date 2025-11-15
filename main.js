@@ -212,7 +212,7 @@ document.querySelector('#app').innerHTML = `
             </div>
 
             <div class="course-description-box">
-              <p>綺麗になるだけじゃない。顔が変われば、気持ちが変わり、人生が変わる。自分を好きになるための、最初の一歩を踏み出しましょう。</p>
+              <p>顔ヨガでキレイになれる。お顔が変われば気持ちが変わる。自分を好きになるための最初の一歩を踏み出しましょう。</p>
             </div>
 
             <div class="lesson-list">
@@ -246,10 +246,41 @@ document.querySelector('#app').innerHTML = `
               <h4>📅 開講日程</h4>
               <div class="schedule-columns">
                 <div class="schedule-column">
-                  <h5>水曜日夜コース 20:00〜21:30</h5>
-                 
-               
-                  <h5>土曜日朝コース 10:00〜11:30</h5>
+                 <div class="course-schedule-box">
+  <h4>📅 開講日程</h4>
+
+  <div class="schedule-columns">
+    <!-- 水曜日夜コース -->
+    <div class="schedule-column">
+      <h5>水曜日夜コース　20:00〜21:30</h5>
+      <ul class="schedule-dates">
+        <li>① 12月24日</li>
+        <li>② 1月7日</li>
+        <li>③ 1月21日</li>
+        <li>④ 2月4日</li>
+        <li>⑤ 2月18日</li>
+      </ul>
+    </div>
+
+    <!-- 土曜日朝コース -->
+    <div class="schedule-column">
+      <h5>土曜日朝コース　10:00〜11:30</h5>
+      <ul class="schedule-dates">
+        <li>① 12月27日</li>
+        <li>② 1月10日</li>
+        <li>③ 1月24日</li>
+        <li>④ 2月7日</li>
+        <li>⑤ 2月21日</li>
+      </ul>
+    </div>
+  </div>
+
+  <p class="course-note">
+    水⇔土の振替可能、アーカイブ参加あり<br>
+    基本ポーズ動画プレゼント付き
+  </p>
+</div>
+
                  
                 </div>
               </div>
@@ -294,7 +325,7 @@ document.querySelector('#app').innerHTML = `
             </div>
 
             <div class="course-description-box">
-              <p>綺麗になるだけじゃ終わらない。学んだスキルで他者を笑顔にできる。自分の好きなことで生きていける。そんな人生を、一緒に実現しましょう。</p>
+              <p>あなたがキレイになったスキルを活かして、やり甲斐と自信と自立できる力を身につける事ができます。</p>
             </div>
 
             <div class="lesson-list">
