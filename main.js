@@ -36,7 +36,7 @@ document.querySelector('#app').innerHTML = `
           </video>
         </div>
       </div>
-       <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
+       <a href="https://liff.line.me/2001999955-5xXKKOay?unique_key=m1xLsv&ts=1764316311"
    target="_blank"
    class="cta-button"
    onclick="gtag('event', 'cta_click', {
@@ -174,7 +174,7 @@ document.querySelector('#app').innerHTML = `
           </div>
         </div>
       </div>
-                        <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
+                        <a href="https://liff.line.me/2001999955-5xXKKOay?unique_key=m1xLsv&ts=1764316311"
    target="_blank"
    class="cta-button"
    onclick="gtag('event', 'cta_click', {
@@ -388,7 +388,7 @@ document.querySelector('#app').innerHTML = `
   </p>
   
 </div>
-                  <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
+                  <a href="https://liff.line.me/2001999955-5xXKKOay?unique_key=m1xLsv&ts=1764316311"
    target="_blank"
    class="cta-button"
    onclick="gtag('event', 'cta_click', {
@@ -470,7 +470,7 @@ document.querySelector('#app').innerHTML = `
           自分らしく生きられる。<br><br>
           そんな人生を、一緒に歩みませんか？
         </p>
-        <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
+        <a href="https://liff.line.me/2001999955-5xXKKOay?unique_key=m1xLsv&ts=1764316311"
    target="_blank"
    class="cta-button"
    onclick="gtag('event', 'cta_click', {
