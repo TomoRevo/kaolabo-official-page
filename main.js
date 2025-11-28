@@ -36,7 +36,13 @@ document.querySelector('#app').innerHTML = `
           </video>
         </div>
       </div>
-       <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA" target="_blank" class="cta-button">お申し込みはこちら▶︎</a>
+       <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
+   target="_blank"
+   class="cta-button"
+   onclick="gtag('event', 'cta_click', { event_category: 'CTA', event_label: 'cta_main' });">
+  お申し込みはこちら▶︎
+</a>
+
 
     </div>
   </section>
@@ -163,7 +169,13 @@ document.querySelector('#app').innerHTML = `
           </div>
         </div>
       </div>
-                        <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA" target="_blank" class="cta-button">お申し込みはこちら▶︎</a>
+                        <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
+   target="_blank"
+   class="cta-button"
+   onclick="gtag('event', 'cta_click', { event_category: 'CTA', event_label: 'cta_main' });">
+  お申し込みはこちら▶︎
+</a>
+
     </div>
   </section>
 
@@ -366,7 +378,13 @@ document.querySelector('#app').innerHTML = `
   </p>
   
 </div>
-                  <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA" target="_blank" class="cta-button">お申し込みはこちら▶︎</a>
+                  <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
+   target="_blank"
+   class="cta-button"
+   onclick="gtag('event', 'cta_click', { event_category: 'CTA', event_label: 'cta_main' });">
+  お申し込みはこちら▶︎
+</a>
+
 
     </div>
     
@@ -437,7 +455,13 @@ document.querySelector('#app').innerHTML = `
           自分らしく生きられる。<br><br>
           そんな人生を、一緒に歩みませんか？
         </p>
-        <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA" target="_blank" class="cta-button">お申し込みはこちら▶︎</a>
+        <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
+   target="_blank"
+   class="cta-button"
+   onclick="gtag('event', 'cta_click', { event_category: 'CTA', event_label: 'cta_main' });">
+  お申し込みはこちら▶︎
+</a>
+
         
       </div>
     </div>
