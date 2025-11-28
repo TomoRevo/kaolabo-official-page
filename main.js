@@ -39,9 +39,14 @@ document.querySelector('#app').innerHTML = `
        <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
    target="_blank"
    class="cta-button"
-   onclick="gtag('event', 'cta_click', { event_category: 'CTA', event_label: 'cta_main' });">
+   onclick="gtag('event', 'cta_click', {
+     event_category: 'CTA',
+     event_label: 'cta_main',
+     transport_type: 'beacon'
+   });">
   お申し込みはこちら▶︎
 </a>
+
 
 
     </div>
@@ -172,9 +177,14 @@ document.querySelector('#app').innerHTML = `
                         <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
    target="_blank"
    class="cta-button"
-   onclick="gtag('event', 'cta_click', { event_category: 'CTA', event_label: 'cta_main' });">
+   onclick="gtag('event', 'cta_click', {
+     event_category: 'CTA',
+     event_label: 'cta_main',
+     transport_type: 'beacon'
+   });">
   お申し込みはこちら▶︎
 </a>
+
 
     </div>
   </section>
@@ -381,9 +391,14 @@ document.querySelector('#app').innerHTML = `
                   <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
    target="_blank"
    class="cta-button"
-   onclick="gtag('event', 'cta_click', { event_category: 'CTA', event_label: 'cta_main' });">
+   onclick="gtag('event', 'cta_click', {
+     event_category: 'CTA',
+     event_label: 'cta_main',
+     transport_type: 'beacon'
+   });">
   お申し込みはこちら▶︎
 </a>
+
 
 
     </div>
@@ -458,9 +473,14 @@ document.querySelector('#app').innerHTML = `
         <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
    target="_blank"
    class="cta-button"
-   onclick="gtag('event', 'cta_click', { event_category: 'CTA', event_label: 'cta_main' });">
+   onclick="gtag('event', 'cta_click', {
+     event_category: 'CTA',
+     event_label: 'cta_main',
+     transport_type: 'beacon'
+   });">
   お申し込みはこちら▶︎
 </a>
+
 
         
       </div>
