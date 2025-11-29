@@ -565,3 +565,33 @@ document.addEventListener('keydown', (e) => {
     closeVideoModal();
   }
 });
+
+// ===============================
+// CTAリンク 自動切替
+// ===============================
+
+// 11/29 21:00 を指定（日本時間）
+const switchTime = new Date("2025-11-29T10:25:00+09:00").getTime();
+
+// 切り替え後のリンク
+const afterLink = "https://liff.line.me/2001999955-5xXKKOay?unique_key=m1xLsv&ts=1764377281";
+
+// 今のリンク（元のLPリンク）
+const beforeLink = "https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA";
+
+function updateCtaLink() {
+  const now = Date.now();
+  const ctas = document.querySelectorAll(".cta-button");
+
+  ctas.forEach((btn) => {
+    const target = now >= switchTime ? afterLink : beforeLink;
+    btn.setAttribute("href", target);
+  });
+}
+
+// 初回実行
+updateCtaLink();
+
+// 30秒ごとにチェック（ページ開いたままの人にも反映）
+setInterval(updateCtaLink, 30000);
+
