@@ -571,7 +571,7 @@ document.addEventListener('keydown', (e) => {
 // ===============================
 
 // 11/29 21:00 を指定（日本時間）
-const switchTime = new Date("2025-11-29T10:25:00+09:00").getTime();
+const switchTime = new Date("2025-11-29T21:00:00+09:00").getTime();
 
 // 切り替え後のリンク
 const afterLink = "https://liff.line.me/2001999955-5xXKKOay?unique_key=m1xLsv&ts=1764377281";
