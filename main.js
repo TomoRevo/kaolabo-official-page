@@ -10,9 +10,9 @@ document.querySelector('#app').innerHTML = `
       <br>
 
       <div class="hero-offer-period">
-  <span class="offer-badge">募集期間</span>
-  <p class="offer-date">11月29日 ～ 12月7日</p>
-  <p class="offer-note">※先着12名様の限定募集です。</p>
+  <span class="offer-badge">満員御礼</span>
+  <p class="offer-date">第2期生の募集は終了いたしました。</p>
+  <p class="offer-note">次回の募集をお待ちください。</p>
 </div>
 
 
@@ -412,7 +412,7 @@ document.querySelector('#app').innerHTML = `
         <div class="faq-item fade-in">
           <div class="faq-question">
             <span class="faq-icon">Q</span>
-            <h3>美容のお仕事初めてでも大丈夫ですか？</h3>
+            <h3>美容のお仕事が初めてでも大丈夫ですか？</h3>
           </div>
           <div class="faq-answer">
             <span class="faq-icon">A</span>
@@ -423,7 +423,7 @@ document.querySelector('#app').innerHTML = `
         <div class="faq-item fade-in">
           <div class="faq-question">
             <span class="faq-icon">Q</span>
-            <h3>本業とできるか不安...</h3>
+            <h3>本業と両立できるか不安...</h3>
           </div>
           <div class="faq-answer">
             <span class="faq-icon">A</span>
