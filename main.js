@@ -323,8 +323,7 @@ document.querySelector('#app').innerHTML = `
         </div>
 
         <div class="step-arrow fade-in">
-          <p class="arrow-simple-text">さらにステップアップして講師として活躍したい方は、<br>講座卒業後に講師養成講座をご受講いただけます。
-(卒業時にご案内します)<br><br>▼　　▼　　▼</p>
+          <p class="arrow-simple-text">▼　　▼　　▼</p>
         </div>
 
         <div class="course-step fade-in">
@@ -349,37 +348,14 @@ document.querySelector('#app').innerHTML = `
               </div>
             </div>
 
-            <div class="course-description-box">
-              <p>あなたがキレイになったスキルを活かして、やり甲斐と自信と自立できる力を身につける事ができます。</p>
-            </div>
-
-            <div class="lesson-list">
-              <div class="lesson-item">
-                <span class="lesson-number">第1回</span>
-                <span class="lesson-title">美顔ヨガの基礎知識・美容マインド・ポーズレッスン</span>
-              </div>
-              <div class="lesson-item">
-                <span class="lesson-number">第2回</span>
-                <span class="lesson-title">体からのアプローチ・顔タイプ診断・ポーズ実践</span>
-              </div>
-              <div class="lesson-item">
-                <span class="lesson-number">第3回</span>
-                <span class="lesson-title">一歩を踏み出すマインドセット＆スキンケア基礎</span>
-              </div>
-              <div class="lesson-item">
-                <span class="lesson-number">第4回</span>
-                <span class="lesson-title">講師養成テスト・活動案内・撮影</span>
-              </div>
-            </div>
-
-        
-
-
            
+          <p class="arrow-simple-text">顔ヨガ講師養成講座の受講をご希望の方は、STEP1受講後にご案内いたします。</p>
+            
+ 
           </div>
         </div>
       </div>
-
+<br>
      <div class="personal-lesson-note fade-in">
   <h3 class="personal-lesson-title">個別レッスンをご希望される方</h3>
   <p class="personal-lesson-text">
