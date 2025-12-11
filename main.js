@@ -355,16 +355,7 @@ document.querySelector('#app').innerHTML = `
           </div>
         </div>
       </div>
-<br>
-     <div class="personal-lesson-note fade-in">
-  <h3 class="personal-lesson-title">個別レッスンをご希望される方</h3>
-  <p class="personal-lesson-text">
-    人前で話すのが苦手な方、大勢が苦手な方、どうしてもパーソナルで受講したい方は、<br>
-    完全パーソナルレッスンでの受講も可能です。ご希望の方やご質問のある方は下記ボタンを押して「個別レッスン希望」とメッセージください。
-  </p>
-  
-</div>
-                  <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
+<a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
    target="_blank"
    class="cta-button"
    onclick="gtag('event', 'cta_click', {
@@ -375,7 +366,15 @@ document.querySelector('#app').innerHTML = `
   お申し込みはこちら▶︎
 </a>
 
-
+     <div class="personal-lesson-note fade-in">
+  <h3 class="personal-lesson-title">個別レッスンをご希望される方</h3>
+  <p class="personal-lesson-text">
+    人前で話すのが苦手な方、大勢が苦手な方、どうしてもパーソナルで受講したい方は、<br>
+    完全パーソナルレッスンでの受講も可能です。ご希望の方やご質問のある方は下記ボタンを押して「個別レッスン希望」とメッセージください。
+  </p>
+  
+</div>
+                
 
     </div>
     
