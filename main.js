@@ -348,6 +348,7 @@ document.querySelector('#app').innerHTML = `
     
   </section>
 
+  ${/*
   <section id="faq" class="section faq">
     <div class="container">
       <h2 class="section-title">よくある質問</h2>
@@ -398,6 +399,7 @@ document.querySelector('#app').innerHTML = `
       </div>
     </div>
   </section>
+*/''}
 
   <section class="section cta-final">
     <div class="container">
