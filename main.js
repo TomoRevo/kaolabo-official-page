@@ -10,9 +10,9 @@ document.querySelector('#app').innerHTML = `
       <br>
 
       <div class="hero-offer-period">
-  <span class="offer-badge">満員御礼</span>
-  <p class="offer-date">第2期生の募集は終了いたしました。</p>
-  <p class="offer-note">次回の募集をお待ちください。</p>
+    <span class="offer-badge">体験レッスン開催決定！</span>
+  <p class="offer-date">レッスン開催日時：2月22日 21:00~</p>
+  <p class="offer-note">※募集は【2月14日 21時】に開始します。</p>
 </div>
 
 
@@ -36,7 +36,8 @@ document.querySelector('#app').innerHTML = `
           </video>
         </div>
       </div>
-       <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
+
+      <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
    target="_blank"
    class="cta-button"
    onclick="gtag('event', 'cta_click', {
