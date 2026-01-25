@@ -322,38 +322,6 @@ document.querySelector('#app').innerHTML = `
           </div>
         </div>
 
-        <div class="step-arrow fade-in">
-          <p class="arrow-simple-text">▼　　▼　　▼</p>
-        </div>
-
-        <div class="course-step fade-in">
-          <div class="step-badge step-badge-advanced">STEP 2</div>
-          <div class="course-main-card course-main-card-advanced">
-          
-
-            <div class="course-header">
-              <div class="course-title-box">
-                <h3 class="course-main-title">顔ヨガ講師養成講座</h3>
-                <p class="course-period">2ヶ月間 / 全4回のグループレッスン</p>
-                <div class="diploma-badge">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M14 2V8H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M16 13H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M16 17H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M10 9H9H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-                  <span>ディプロマ発行あり</span>
-                </div>
-              </div>
-            </div>
-
-           
-          <p class="arrow-simple-text">顔ヨガ講師養成講座の受講をご希望の方は、STEP1受講後にご案内いたします。</p>
-            
- 
-          </div>
-        </div>
       </div>
 <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
    target="_blank"
@@ -370,7 +338,7 @@ document.querySelector('#app').innerHTML = `
   <h3 class="personal-lesson-title">個別レッスンをご希望される方</h3>
   <p class="personal-lesson-text">
     人前で話すのが苦手な方、大勢が苦手な方、どうしてもパーソナルで受講したい方は、<br>
-    完全パーソナルレッスンでの受講も可能です。ご希望の方やご質問のある方は下記ボタンを押して「個別レッスン希望」とメッセージください。
+    完全パーソナルレッスンでの受講も可能です。ご希望の方やご質問のある方は上記申込しみボタンを押して「個別レッスン希望」とメッセージください。
   </p>
   
 </div>
