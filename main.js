@@ -276,7 +276,9 @@ document.querySelector('#app').innerHTML = `
             </div>
 
             <div class="course-schedule-box">
-          
+       
+            
+ ${'' /*             
   <h4>📅 開講日程</h4>
 
   <div class="schedule-columns">
@@ -310,7 +312,7 @@ document.querySelector('#app').innerHTML = `
     基本ポーズ動画プレゼント付き
   </p>
 </div>
-
+*/} 
         
 
             <div class="course-price-box">
@@ -349,58 +351,86 @@ document.querySelector('#app').innerHTML = `
     
   </section>
 
-  ${/*
-  <section id="faq" class="section faq">
-    <div class="container">
-      <h2 class="section-title">よくある質問</h2>
-      <div class="faq-list">
-        <div class="faq-item fade-in">
-          <div class="faq-question">
-            <span class="faq-icon">Q</span>
-            <h3>美容のお仕事が初めてでも大丈夫ですか？</h3>
-          </div>
-          <div class="faq-answer">
-            <span class="faq-icon">A</span>
-            <p>初歩的な事から覚えやすく、何歳からでも始められます。一つ一つ丁寧に指導しますので、美容の経験がなくても安心して参加いただけます。</p>
-          </div>
-        </div>
+<section id="faq" class="section faq">
+  <div class="container">
+    <h2 class="section-title">よくある質問</h2>
+    <div class="faq-list">
 
-        <div class="faq-item fade-in">
-          <div class="faq-question">
-            <span class="faq-icon">Q</span>
-            <h3>本業と両立できるか不安...</h3>
-          </div>
-          <div class="faq-answer">
-            <span class="faq-icon">A</span>
-            <p>好きな時間や場所で仕事ができるので、本業との両立も十分可能です。多くの受講生が仕事や家事と並行して活動しています。</p>
-          </div>
+      <div class="faq-item fade-in">
+        <div class="faq-question">
+          <span class="faq-icon">Q</span>
+          <h3>美顔ヨガは本当に効果がありますか？</h3>
         </div>
-
-        <div class="faq-item fade-in">
-          <div class="faq-question">
-            <span class="faq-icon">Q</span>
-            <h3>自分も変わって、それを教えるって難しそう...</h3>
-          </div>
-          <div class="faq-answer">
-            <span class="faq-icon">A</span>
-            <p>正しいやり方を実践すれば自分自身が変化し、その経験が教える力になります。教え方もしっかり伝えるので、自信を持って活動できます。</p>
-          </div>
-        </div>
-
-        <div class="faq-item fade-in">
-          <div class="faq-question">
-            <span class="faq-icon">Q</span>
-            <h3>自分の見た目に自信がなくてもできますか？</h3>
-          </div>
-          <div class="faq-answer">
-            <span class="faq-icon">A</span>
-            <p>最初から自信がある人はいません。自信がないからこそ、この講座を作りました。一緒に学ぶ仲間とともに、少しずつ自信を積み上げていきましょう。</p>
-          </div>
+        <div class="faq-answer">
+          <span class="faq-icon">A</span>
+          <p>
+            正しく続ければ効果は出ます。<br>
+            ただし「一回で別人」ではなく、筋肉の使い方を理解して継続していくことで効果を感じていただけます。
+          </p>
         </div>
       </div>
+
+      <div class="faq-item fade-in">
+        <div class="faq-question">
+          <span class="faq-icon">Q</span>
+          <h3>何歳からでも変われますか？</h3>
+        </div>
+        <div class="faq-answer">
+          <span class="faq-icon">A</span>
+          <p>
+            年齢制限はありません。<br>
+            実際に、35歳から60歳まで100人以上の幅広い年齢の方がご受講くださっています。<br>
+            特に40代以降は、表情筋＋マインドの整え方が大切です。「もう遅い」と感じている方にも、諦めずぜひチャレンジしてほしいです。
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <div class="faq-question">
+          <span class="faq-icon">Q</span>
+          <h3>どれくらいで変化を感じますか？</h3>
+        </div>
+        <div class="faq-answer">
+          <span class="faq-icon">A</span>
+          <p>
+            早い方で2週間ほどで変化を感じていただけます。<br>
+            1ヶ月くらいで変化を感じられる方がほとんどです。（むくみ・フェイスライン・目元・表情など）
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <div class="faq-question">
+          <span class="faq-icon">Q</span>
+          <h3>グループレッスンでもちゃんと見てもらえますか？</h3>
+        </div>
+        <div class="faq-answer">
+          <span class="faq-icon">A</span>
+          <p>
+            はい。少人数制なので一人ずつしっかりチェックできます。<br>
+            6回目は完全個別レッスンで、お悩みや苦手をお伺いしてレッスンをさせていただきます。
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <div class="faq-question">
+          <span class="faq-icon">Q</span>
+          <h3>続けられるか不安です…</h3>
+        </div>
+        <div class="faq-answer">
+          <span class="faq-icon">A</span>
+          <p>
+            その不安は、みなさんが一番感じることです。<br>
+            3ヶ月のレッスンの中で、継続できる方法もお伝えしていきますのでご安心くださいね。
+          </p>
+        </div>
+      </div>
+
     </div>
-  </section>
-*/''}
+  </div>
+</section>
+
 
   <section class="section cta-final">
     <div class="container">
