@@ -240,7 +240,7 @@ document.querySelector('#app').innerHTML = `
             <div class="course-header">
               <div class="course-title-box">
                 <h3 class="course-main-title">マインドアップ美顔ヨガ講座</h3>
-                <p class="course-period">約3ヶ月間 / 全6回のグループレッスン</p>
+                <p class="course-period">約3ヶ月間 / 全5回のグループレッスン+個別レッスン</p>
               </div>
             </div>
 
@@ -249,36 +249,54 @@ document.querySelector('#app').innerHTML = `
             </div>
 
             <div class="lesson-list">
-              <div class="lesson-item">
-                <span class="lesson-number">第1回</span>
-                <span class="lesson-title">自己紹介・お顔チェック・基本ポーズレッスン・撮影</span>
-              </div>
-              <div class="lesson-item">
-                <span class="lesson-number">第2回</span>
-                <span class="lesson-title">表情筋ワークと基本ポーズ</span>
-              </div>
-              <div class="lesson-item">
-                <span class="lesson-number">第3回</span>
-                <span class="lesson-title">美顔ヨガを楽しむ練習法</span>
-              </div>
-              <div class="lesson-item">
-                <span class="lesson-number">第4回</span>
-                <span class="lesson-title">アドバンスポーズ（応用）</span>
-              </div>
-              <div class="lesson-item">
-                <span class="lesson-number">第5回</span>
-                <span class="lesson-title">総復習・撮影</span>
-              </div>
-              <div class="lesson-item">
-                <span class="lesson-number">パーソナル</span>
-                <span class="lesson-title">講師による個別レッスン</span>
-              </div>
-            </div>
+          <div class="lesson-item">
+            <span class="lesson-number">第1回</span>
+            <span class="lesson-title">
+              顔labo 3つの大切なワーク／マインドアップワーク／顔ヨガの注意点／基本ポーズ
+            </span>
+          </div>
 
+          <div class="lesson-item">
+            <span class="lesson-number">第2回</span>
+            <span class="lesson-title">
+              3つのワーク／表情筋を知るワーク
+            </span>
+          </div>
+
+          <div class="lesson-item">
+            <span class="lesson-number">第3回</span>
+            <span class="lesson-title">
+              3つのワーク／マインドセット／アドバンスポーズ
+            </span>
+          </div>
+
+          <div class="lesson-item">
+            <span class="lesson-number">第4回</span>
+            <span class="lesson-title">
+              3つのワーク／マインドセット／アドバンスポーズ
+            </span>
+          </div>
+
+          <div class="lesson-item">
+            <span class="lesson-number">第5回</span>
+            <span class="lesson-title">
+              3つのワーク／マインドセット／基本＆アドバンスポーズ総復習
+            </span>
+          </div>
+
+          <div class="lesson-item">
+            <span class="lesson-number">第6回</span>
+            <span class="lesson-title">
+              講師による60分 完全個別レッスン
+            </span>
+          </div>
+        </div>
+
+             ${'' /*    
             <div class="course-schedule-box">
        
             
- ${'' /*             
+         
   <h4>📅 開講日程</h4>
 
   <div class="schedule-columns">
