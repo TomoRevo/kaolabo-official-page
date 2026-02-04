@@ -292,35 +292,32 @@ document.querySelector('#app').innerHTML = `
           </div>
         </div>
 
-             ${'' /*    
-            <div class="course-schedule-box">
-       
-            
-         
+              
+           <div class="course-schedule-box">
   <h4>📅 開講日程</h4>
 
   <div class="schedule-columns">
-    <!-- 水曜日夜コース -->
+    <!-- 水曜日20:00クラス -->
     <div class="schedule-column">
-      <h5>水曜日夜コース　20:00〜21:30</h5>
+      <h5>水曜日20:00クラス</h5>
       <ul class="schedule-dates">
-        <li>① 12月24日</li>
-        <li>② 1月7日</li>
-        <li>③ 1月21日</li>
-        <li>④ 2月4日</li>
-        <li>⑤ 2月18日</li>
+        <li>① 3月18日</li>
+        <li>② 4月1日</li>
+        <li>③ 4月15日</li>
+        <li>④ 4月22日</li>
+        <li>⑤ 5月6日</li>
       </ul>
     </div>
 
-    <!-- 土曜日朝コース -->
+    <!-- 土曜日10:00クラス -->
     <div class="schedule-column">
-      <h5>土曜日朝コース　10:00〜11:30</h5>
+      <h5>土曜日10:00クラス</h5>
       <ul class="schedule-dates">
-        <li>① 12月27日</li>
-        <li>② 1月10日</li>
-        <li>③ 1月24日</li>
-        <li>④ 2月7日</li>
-        <li>⑤ 2月21日</li>
+        <li>① 3月21日</li>
+        <li>② 4月4日</li>
+        <li>③ 4月18日</li>
+        <li>④ 4月25日</li>
+        <li>⑤ 5月9日</li>
       </ul>
     </div>
   </div>
@@ -330,7 +327,7 @@ document.querySelector('#app').innerHTML = `
     基本ポーズ動画プレゼント付き
   </p>
 </div>
-*/} 
+
         
 
             <div class="course-price-box">
