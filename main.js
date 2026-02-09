@@ -304,8 +304,9 @@ document.querySelector('#app').innerHTML = `
         <li>① 3月18日</li>
         <li>② 4月1日</li>
         <li>③ 4月15日</li>
-        <li>④ 4月22日</li>
+        <li>④ 4月22日*</li>
         <li>⑤ 5月6日</li>
+        <li>⑥ 講師との完全個別レッスン</li>
       </ul>
     </div>
 
@@ -316,8 +317,9 @@ document.querySelector('#app').innerHTML = `
         <li>① 3月21日</li>
         <li>② 4月4日</li>
         <li>③ 4月18日</li>
-        <li>④ 4月25日</li>
+        <li>④ 4月25日*</li>
         <li>⑤ 5月9日</li>
+        <li>⑥ 講師との完全個別レッスン</li>
       </ul>
     </div>
   </div>
