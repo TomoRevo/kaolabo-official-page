@@ -1,5 +1,4 @@
-
-document.querySelector('#app').innerHTML = `
+document.querySelector("#app").innerHTML = /*html*/ `
   <section class="hero">
     <div class="hero-content">
       <div class="hero-brand">
@@ -240,7 +239,7 @@ document.querySelector('#app').innerHTML = `
             <div class="course-header">
               <div class="course-title-box">
                 <h3 class="course-main-title">マインドアップ美顔ヨガ講座</h3>
-                <p class="course-period">約3ヶ月間 / 全5回のグループレッスン(各90分)
+                    <p class="course-period">約3ヶ月間 / 全5回のグループレッスン(各90分)
                 <br>
                 + 個別レッスン(60分)</p>
               </div>
@@ -501,62 +500,62 @@ document.querySelector('#app').innerHTML = `
 
 const observerOptions = {
   threshold: 0.1,
-  rootMargin: '0px 0px -50px 0px'
+  rootMargin: "0px 0px -50px 0px",
 };
 
 const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
+  entries.forEach((entry) => {
     if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
+      entry.target.classList.add("visible");
     }
   });
 }, observerOptions);
 
 setTimeout(() => {
-  document.querySelectorAll('.fade-in').forEach(el => {
+  document.querySelectorAll(".fade-in").forEach((el) => {
     observer.observe(el);
   });
 }, 100);
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
     e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
+    const target = document.querySelector(this.getAttribute("href"));
     if (target) {
       target.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
+        behavior: "smooth",
+        block: "start",
       });
     }
   });
 });
 
 // Video modal functionality
-const videoThumbnail = document.getElementById('videoThumbnail');
-const videoModal = document.getElementById('videoModal');
-const videoModalOverlay = document.getElementById('videoModalOverlay');
-const videoModalClose = document.getElementById('videoModalClose');
-const modalVideo = document.getElementById('modalVideo');
+const videoThumbnail = document.getElementById("videoThumbnail");
+const videoModal = document.getElementById("videoModal");
+const videoModalOverlay = document.getElementById("videoModalOverlay");
+const videoModalClose = document.getElementById("videoModalClose");
+const modalVideo = document.getElementById("modalVideo");
 
 function openVideoModal() {
-  videoModal.style.display = 'flex';
-  document.body.style.overflow = 'hidden';
+  videoModal.style.display = "flex";
+  document.body.style.overflow = "hidden";
   modalVideo.play();
 }
 
 function closeVideoModal() {
-  videoModal.style.display = 'none';
-  document.body.style.overflow = '';
+  videoModal.style.display = "none";
+  document.body.style.overflow = "";
   modalVideo.pause();
   modalVideo.currentTime = 0;
 }
 
-videoThumbnail.addEventListener('click', openVideoModal);
-videoModalOverlay.addEventListener('click', closeVideoModal);
-videoModalClose.addEventListener('click', closeVideoModal);
+videoThumbnail.addEventListener("click", openVideoModal);
+videoModalOverlay.addEventListener("click", closeVideoModal);
+videoModalClose.addEventListener("click", closeVideoModal);
 
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape' && videoModal.style.display === 'flex') {
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && videoModal.style.display === "flex") {
     closeVideoModal();
   }
 });
@@ -589,4 +588,3 @@ document.addEventListener('keydown', (e) => {
 
 // // 30秒ごとにチェック（ページ開いたままの人にも反映）
 // setInterval(updateCtaLink, 30000);
-
