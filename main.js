@@ -240,7 +240,9 @@ document.querySelector('#app').innerHTML = `
             <div class="course-header">
               <div class="course-title-box">
                 <h3 class="course-main-title">マインドアップ美顔ヨガ講座</h3>
-                <p class="course-period">約3ヶ月間 / 全5回のグループレッスン+個別レッスン</p>
+                <p class="course-period">約3ヶ月間 / 全5回のグループレッスン(各90分)
+                <br>
+                + 個別レッスン(60分)</p>
               </div>
             </div>
 
