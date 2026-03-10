@@ -1436,6 +1436,11 @@ body {
   text-align: center;
 }
 
+/* ヒーロー内：ボックスとボタンの余白を動画⇔ボックスと同じ5%に統一 */
+.hero .cta-button {
+  margin-top: 0;
+}
+
 
 
 .cta-button::before {

@@ -8,13 +8,6 @@ document.querySelector("#app").innerHTML = /*html*/ `
       <h2 class="hero-catchphrase">お顔と心をあげて<br>最高に可愛い自分に出会う</h2>
       <br>
 
-      <div class="hero-offer-period">
-    <span class="offer-badge">体験レッスン開催決定！</span>
-  <p class="offer-date">レッスン開催日時：2月22日 21:00~</p>
-  <p class="offer-note">※募集は【2月14日 21時】に開始します。</p>
-</div>
-
-
       <div class="hero-video-thumbnail" id="videoThumbnail">
         <img src="./img/VSLサムネ.png" alt="動画サムネイル" class="video-thumbnail-img">
         <div class="play-button">
@@ -35,6 +28,13 @@ document.querySelector("#app").innerHTML = /*html*/ `
           </video>
         </div>
       </div>
+
+      <div class="hero-offer-period">
+        <span class="offer-badge">満員御礼</span>
+        <p class="offer-date">次回の開催をお待ちください。</p>
+        <p class="offer-note">↓次回参加希望の方は以下のボタンからLINE登録してお待ちください↓</p>
+      </div>
+      <br>
 
       <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
    target="_blank"
