@@ -31,7 +31,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
 
       <div class="hero-offer-period">
         <span class="offer-badge">満員御礼</span>
-        <p class="offer-date">次回の開催をお待ちください。</p>
+        <p class="offer-date">次回は2026年5月募集予定です❣️</p>
         <p class="offer-note">↓次回参加希望の方は以下のボタンからLINE登録してお待ちください↓</p>
       </div>
       <br>
@@ -234,14 +234,12 @@ document.querySelector("#app").innerHTML = /*html*/ `
 
       <div class="curriculum-path">
         <div class="course-step fade-in">
-          <div class="step-badge">STEP 1</div>
+          <!-- <div class="step-badge">STEP 1</div> -->
           <div class="course-main-card">
             <div class="course-header">
               <div class="course-title-box">
                 <h3 class="course-main-title">マインドアップ美顔ヨガ講座</h3>
-                    <p class="course-period">約3ヶ月間 / 全5回のグループレッスン(各90分)
-                <br>
-                + 個別レッスン(60分)</p>
+                    <p class="course-period">約3ヶ月間 講座内容はただいまリニューアル中です！</p>
               </div>
             </div>
 
@@ -250,7 +248,46 @@ document.querySelector("#app").innerHTML = /*html*/ `
             </div>
 
             <div class="lesson-list">
+
+            <div class="curriculum-subtitle">
+              <span class="curriculum-subtitle-line"></span>
+              <span class="curriculum-subtitle-text">講座内容</span>
+              <span class="curriculum-subtitle-line"></span>
+            </div>
+
+            <div class="lesson-item">
+              <span class="lesson-number">１</span>
+            <span class="lesson-title">
+              美顔ヨガレッスン
+            </span>
+          </div>
+
           <div class="lesson-item">
+            <span class="lesson-number">２</span>
+            <span class="lesson-title">
+              マインドセット
+            </span>
+          </div>
+
+          <div class="lesson-item">
+            <span class="lesson-number">３</span>
+            <span class="lesson-title">
+              スキンケア/インナーケア
+            </span>
+          </div>
+
+          <div class="lesson-item">
+            <span class="lesson-number">４
+            </span>
+            <span class="lesson-title">
+              フェイスポインターの使い方
+            </span>
+          </div>
+
+          </div>
+
+
+          <!-- <div class="lesson-item">
             <span class="lesson-number">第1回</span>
             <span class="lesson-title">
               顔labo 3つの大切なワーク／マインドアップワーク／顔ヨガの注意点／基本ポーズ
@@ -290,16 +327,16 @@ document.querySelector("#app").innerHTML = /*html*/ `
             <span class="lesson-title">
               講師による60分 完全個別レッスン
             </span>
-          </div>
+          </div> -->
         </div>
 
               
-           <div class="course-schedule-box">
-  <h4>📅 開講日程</h4>
+           <!-- <div class="course-schedule-box"> -->
+  <!-- <h4>📅 開講日程</h4>
 
-  <div class="schedule-columns">
+  <div class="schedule-columns"> -->
     <!-- 水曜日20:00クラス -->
-    <div class="schedule-column">
+    <!-- <div class="schedule-column">
       <h5>水曜日20:00クラス</h5>
       <ul class="schedule-dates">
         <li>① 3月18日</li>
@@ -309,10 +346,10 @@ document.querySelector("#app").innerHTML = /*html*/ `
         <li>⑤ 5月6日</li>
         <li>⑥ 講師との完全個別レッスン</li>
       </ul>
-    </div>
+    </div> -->
 
     <!-- 土曜日10:00クラス -->
-    <div class="schedule-column">
+    <!-- <div class="schedule-column">
       <h5>土曜日10:00クラス</h5>
       <ul class="schedule-dates">
         <li>① 3月21日</li>
@@ -323,17 +360,17 @@ document.querySelector("#app").innerHTML = /*html*/ `
         <li>⑥ 講師との完全個別レッスン</li>
       </ul>
     </div>
-  </div>
+  </div> -->
 
-  <p class="course-note">
-    水⇔土の振替可能、アーカイブ参加あり<br>
-    基本ポーズ動画プレゼント付き
-  </p>
-</div>
+  <div class="course-benefit-banner">
+    <span class="course-benefit-icon">✦</span>
+    <p class="course-benefit-text">受講期間中はエステ施術・化粧品等の<span class="course-benefit-highlight">ご優待特典</span>がございます。</p>
+  </div>
+<!-- </div> -->
 
         
 
-            <div class="course-price-box">
+            <!-- <div class="course-price-box">
               <div class="price-highlight">
                 <span class="price-label">受講料</span>
                 <span class="price-amount">200,000<span class="price-unit">円</span></span>
@@ -341,7 +378,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
 <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
@@ -355,7 +392,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
   お申し込みはこちら▶︎
 </a>
 
-     <div class="personal-lesson-note fade-in">
+     <!-- <div class="personal-lesson-note fade-in">
   <h3 class="personal-lesson-title">個別レッスンをご希望される方</h3>
   <p class="personal-lesson-text">
     人前で話すのが苦手な方、大勢が苦手な方、どうしてもパーソナルで受講したい方は、<br>
@@ -363,7 +400,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
   </p>
   
 </div>
-                
+                 -->
 
     </div>
     
@@ -417,7 +454,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
         </div>
       </div>
 
-      <div class="faq-item fade-in">
+      <!-- <div class="faq-item fade-in">
         <div class="faq-question">
           <span class="faq-icon">Q</span>
           <h3>グループレッスンでもちゃんと見てもらえますか？</h3>
@@ -429,7 +466,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
             6回目は完全個別レッスンで、お悩みや苦手をお伺いしてレッスンをさせていただきます。
           </p>
         </div>
-      </div>
+      </div> -->
 
       <div class="faq-item fade-in">
         <div class="faq-question">
