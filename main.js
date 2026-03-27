@@ -32,7 +32,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
       <div class="hero-offer-period">
         <span class="offer-badge">満員御礼</span>
         <p class="offer-date">次回は2026年5月募集予定です❣️</p>
-        <p class="offer-note">↓次回参加希望の方は以下のボタンからLINE登録してお待ちください↓</p>
+        <p class="offer-note">次回参加希望の方は<br>以下のボタンからLINE登録してお待ちください</p>
       </div>
       <br>
 
