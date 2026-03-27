@@ -124,7 +124,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
           <br>
           <p><span class="highlight-text">顔が変われば、気持ちが変わる。<br>気持ちが変われば、人生が変わる。</span></p>
           <br>
-          <p>そして、この講座では綺麗になるだけじゃなく、講師として活動する道もご用意しています。<br>自分の好きなことで、誰かを笑顔にできる。<br>そんな人生を、一緒に歩みませんか？</p>
+          <p>何かを始めるのにもう遅いなんてない。<br>今日が1番あなたの若い日です。<br>スタートは絶対に1日でも早い方がいい！</p>
           <br>
           <p><span class="highlight-text">お顔も心も上げて、自分史上最高に可愛い自分に出会いましょう♡</span></p>
         </div>
@@ -146,7 +146,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
             <div class="testimonial-highlight">
               ちひろ先生のレッスンは毎回楽しく、自分にもできるか不安だった私も楽しく無理なく続けられました！
             </div>
-            <p class="testimonial-text">自分にもできることを見つけたいと思いつつ、「ちゃんと続けられるかな？」という不安がありました。でも体験できる先生にお会いしたとき、笑顔で丁寧に寄り添ってくださる姿に安心して、「この先生のもとなら楽しく学べそう！」と思えたんです。顔ヨガを通して、無理なく楽しく続けられる自信をもらえました。<br><br>終わったらお顔もリフトアップして、たくさんお話しするのでお顔と気持ちもスッキリします。私も顔ヨガ講師になったら、先生さんにこんなレッスンができる講師になりたいと思います！</p>
+            <p class="testimonial-text">自分にもできることを見つけたいと思いつつ、「ちゃんと続けられるかな？」という不安がありました。でも体験できる先生にお会いしたとき、笑顔で丁寧に寄り添ってくださる姿に安心して、「この先生のもとなら楽しく学べそう！」と思えたんです。顔ヨガを通して、無理なく楽しく続けられる自信をもらえました。<br><br>終わったらお顔もリフトアップして、たくさんお話しするのでお顔と気持ちもスッキリします。同世代の女性に笑顔になってもらえる、美容のお仕事をこれからしたいと思っています！</p>
           </div>
         </div>
 
@@ -170,7 +170,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
             <div class="testimonial-highlight">
               ちひろ先生はベテランのエステティシャンでもあるので、マッサージのやり方やほぐし方もすごく分かりやすかったです。
             </div>
-            <p class="testimonial-text">これまでエステを通して多くのお客様と接してきましたが、「もっと心の部分に寄り添えるような技術があったら」と感じることがありました。ちひろさんの講座は、技術のわかりやすさだけでなく、想いや寄り添いの温度が高くて。先生自身が伝えたいことを体現してる"感じ"に惹かれて、ここで学びたいと思いました。<br><br>お肌のお手入れのやり方やスキンケアも教えていただけて、私もこれから生徒さんに色んなアプローチができるし、これから講師として活動していくために、すごく安心感があります。エステとマインドと顔ヨガ、全部学べってすごいと思う。絶対おすすめです！</p>
+            <p class="testimonial-text">これまでエステを通して多くのお客様と接してきましたが、「もっと心の部分に寄り添えるような技術があったら」と感じることがありました。ちひろさんの講座は、技術のわかりやすさだけでなく、想いや寄り添いの温度が高くて。先生自身が伝えたいことを体現してる"感じ"に惹かれて、ここで学びたいと思いました。<br><br>お肌のお手入れのやり方やスキンケアも教えていただけて、私もこれから生徒さんに色んなアプローチができるし、これから講師として活動していくために、すごく安心感があります。エステとマインドと顔ヨガ、全部学べるってすごいと思う。絶対おすすめです！</p>
           </div>
         </div>
       </div>
@@ -228,179 +228,47 @@ document.querySelector("#app").innerHTML = /*html*/ `
     </div>
   </section>
 
-  <section id="curriculum" class="section curriculum">
+  <section id="lesson-content" class="section lesson-content">
     <div class="container">
-      <h2 class="section-title">カリキュラム</h2>
+      <h2 class="section-title">講座内容について</h2>
 
-      <div class="curriculum-path">
-        <div class="course-step fade-in">
-          <!-- <div class="step-badge">STEP 1</div> -->
-          <div class="course-main-card">
-            <div class="course-header">
-              <div class="course-title-box">
-                <h3 class="course-main-title">マインドアップ美顔ヨガ講座</h3>
-                    <p class="course-period">約3ヶ月間 講座内容はただいまリニューアル中です！</p>
-              </div>
-            </div>
-
-            <div class="course-description-box">
-              <p>顔ヨガでキレイになれる。お顔が変われば気持ちが変わる。自分を好きになるための最初の一歩を踏み出しましょう。</p>
-            </div>
-
-            <div class="lesson-list">
-
-            <div class="curriculum-subtitle">
-              <span class="curriculum-subtitle-line"></span>
-              <span class="curriculum-subtitle-text">講座内容</span>
-              <span class="curriculum-subtitle-line"></span>
-            </div>
-
-            <div class="lesson-item">
-              <span class="lesson-number">１</span>
-            <span class="lesson-title">
-              美顔ヨガレッスン
-            </span>
-          </div>
-
-          <div class="lesson-item">
-            <span class="lesson-number">２</span>
-            <span class="lesson-title">
-              マインドセット
-            </span>
-          </div>
-
-          <div class="lesson-item">
-            <span class="lesson-number">３</span>
-            <span class="lesson-title">
-              スキンケア/インナーケア
-            </span>
-          </div>
-
-          <div class="lesson-item">
-            <span class="lesson-number">４
-            </span>
-            <span class="lesson-title">
-              フェイスポインターの使い方
-            </span>
-          </div>
-
-          </div>
-
-
-          <!-- <div class="lesson-item">
-            <span class="lesson-number">第1回</span>
-            <span class="lesson-title">
-              顔labo 3つの大切なワーク／マインドアップワーク／顔ヨガの注意点／基本ポーズ
-            </span>
-          </div>
-
-          <div class="lesson-item">
-            <span class="lesson-number">第2回</span>
-            <span class="lesson-title">
-              3つのワーク／表情筋を知るワーク
-            </span>
-          </div>
-
-          <div class="lesson-item">
-            <span class="lesson-number">第3回</span>
-            <span class="lesson-title">
-              3つのワーク／マインドセット／アドバンスポーズ
-            </span>
-          </div>
-
-          <div class="lesson-item">
-            <span class="lesson-number">第4回</span>
-            <span class="lesson-title">
-              3つのワーク／マインドセット／アドバンスポーズ
-            </span>
-          </div>
-
-          <div class="lesson-item">
-            <span class="lesson-number">第5回</span>
-            <span class="lesson-title">
-              3つのワーク／マインドセット／基本＆アドバンスポーズ総復習
-            </span>
-          </div>
-
-          <div class="lesson-item">
-            <span class="lesson-number">第6回</span>
-            <span class="lesson-title">
-              講師による60分 完全個別レッスン
-            </span>
-          </div> -->
+      <!-- レッスン内容カード -->
+      <div class="lesson-block fade-in">
+        <div class="lesson-block-header">
+          <h3 class="lesson-block-title">レッスン内容</h3>
+          <p class="lesson-block-meta">60分 × 全6回（約3ヶ月）／ 毎月2回 Zoom開催</p>
         </div>
-
-              
-           <!-- <div class="course-schedule-box"> -->
-  <!-- <h4>📅 開講日程</h4>
-
-  <div class="schedule-columns"> -->
-    <!-- 水曜日20:00クラス -->
-    <!-- <div class="schedule-column">
-      <h5>水曜日20:00クラス</h5>
-      <ul class="schedule-dates">
-        <li>① 3月18日</li>
-        <li>② 4月1日</li>
-        <li>③ 4月15日</li>
-        <li>④ 4月22日*</li>
-        <li>⑤ 5月6日</li>
-        <li>⑥ 講師との完全個別レッスン</li>
-      </ul>
-    </div> -->
-
-    <!-- 土曜日10:00クラス -->
-    <!-- <div class="schedule-column">
-      <h5>土曜日10:00クラス</h5>
-      <ul class="schedule-dates">
-        <li>① 3月21日</li>
-        <li>② 4月4日</li>
-        <li>③ 4月18日</li>
-        <li>④ 4月25日*</li>
-        <li>⑤ 5月9日</li>
-        <li>⑥ 講師との完全個別レッスン</li>
-      </ul>
-    </div>
-  </div> -->
-
-  <div class="course-benefit-banner">
-    <span class="course-benefit-icon">✦</span>
-    <p class="course-benefit-text">受講期間中はエステ施術・化粧品等の<span class="course-benefit-highlight">ご優待特典</span>がございます。</p>
-  </div>
-<!-- </div> -->
-
-        
-
-            <!-- <div class="course-price-box">
-              <div class="price-highlight">
-                <span class="price-label">受講料</span>
-                <span class="price-amount">200,000<span class="price-unit">円</span></span>
-                <span class="price-tax">（税込）</span>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
+        <div class="lesson-list">
+          <div class="lesson-item"><span class="lesson-dot"></span><span class="lesson-title">美顔ヨガレッスン</span></div>
+          <div class="lesson-item"><span class="lesson-dot"></span><span class="lesson-title">スキンケア、インナーケア、ポインターレクチャー</span></div>
+          <div class="lesson-item"><span class="lesson-dot"></span><span class="lesson-title">あなたのお悩みに合わせたトレーニング</span></div>
+          <div class="lesson-item"><span class="lesson-dot"></span><span class="lesson-title">可愛いを引き出すマインドアップセッション</span></div>
+        </div>
       </div>
-<a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
-   target="_blank"
-   class="cta-button"
-   onclick="gtag('event', 'cta_click', {
-     event_category: 'CTA',
-     event_label: 'cta_main',
-     transport_type: 'beacon'
-   });">
-  お申し込みはこちら▶︎
-</a>
 
-     <!-- <div class="personal-lesson-note fade-in">
-  <h3 class="personal-lesson-title">個別レッスンをご希望される方</h3>
-  <p class="personal-lesson-text">
-    人前で話すのが苦手な方、大勢が苦手な方、どうしてもパーソナルで受講したい方は、<br>
-    完全パーソナルレッスンでの受講も可能です。ご希望の方やご質問のある方は上記申込しみボタンを押して「個別レッスン希望」とメッセージください。
-  </p>
-  
-</div>
-                 -->
+      <!-- 受講生限定特典カード -->
+      <div class="benefit-block fade-in">
+        <div class="benefit-block-header">
+          <h3 class="benefit-block-title">受講生限定特典</h3>
+        </div>
+        <div class="lesson-list">
+          <div class="lesson-item"><span class="lesson-dot"></span><span class="lesson-title">基本の美顔ヨガ動画プレゼント</span></div>
+          <div class="lesson-item"><span class="lesson-dot"></span><span class="lesson-title">変化を感じられるビフォーアフター写真お渡し</span></div>
+          <div class="lesson-item"><span class="lesson-dot"></span><span class="lesson-title">期間中サロン優待（施術、化粧品など）</span></div>
+          <div class="lesson-item"><span class="lesson-dot"></span><span class="lesson-title">ご卒業後も安心の卒業生だけの優待サポートレッスン</span></div>
+        </div>
+      </div>
+
+      <a href="https://form.lmes.jp/landing-qr/2001999955-dv0AAknx?uLand=zbIZmA"
+         target="_blank"
+         class="cta-button"
+         onclick="gtag('event', 'cta_click', {
+           event_category: 'CTA',
+           event_label: 'cta_main',
+           transport_type: 'beacon'
+         });">
+        お申し込みはこちら▶︎
+      </a>
 
     </div>
     
@@ -524,7 +392,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
       
       <div class="footer-links">
         <a href="#about">顔ヨガとは</a>
-        <a href="#curriculum">カリキュラム</a>
+        <a href="#lesson-content">講座内容について</a>
         <a href="#testimonials">受講生の声</a>
         <a href="#faq">よくある質問</a>
       </div>
