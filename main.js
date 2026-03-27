@@ -124,7 +124,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
           <br>
           <p><span class="highlight-text">顔が変われば、気持ちが変わる。<br>気持ちが変われば、人生が変わる。</span></p>
           <br>
-          <p>何かを始めるのにもう遅いなんてない。<br>今日が1番あなたの若い日です。<br>スタートは絶対に1日でも早い方がいい！</p>
+          <p>何かを始めるのにもう遅いなんてない。<br>でも今日が1番あなたの若い日です。<br>スタートは絶対に1日でも早い方がいい！</p>
           <br>
           <p><span class="highlight-text">お顔も心も上げて、自分史上最高に可愛い自分に出会いましょう♡</span></p>
         </div>
