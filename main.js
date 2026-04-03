@@ -196,7 +196,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
       <div class="instructor-card fade-in">
         <div class="instructor-image">
           <div class="instructor-photo">
-            <img src="./img/ちひろさん_プロフ写真_新.jpg" alt="講師 ちひろ">
+            <img src="./img/instructor-chihiro.jpg" alt="講師 ちひろ">
           </div>
           <div class="instructor-name-box instructor-name-box-desktop">
             <h3 class="instructor-name">ちひろ</h3>
