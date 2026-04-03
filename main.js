@@ -23,7 +23,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
         <div class="video-modal-content">
           <button class="video-modal-close" id="videoModalClose">×</button>
           <video controls id="modalVideo" class="modal-video-player">
-            <source src="./video/顔laboLP用VSL.mp4" type="video/mp4">
+            <source src="./video/kaolabo-vsl.mp4" type="video/mp4">
             お使いのブラウザは動画タグに対応していません。
           </video>
         </div>
@@ -196,7 +196,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
       <div class="instructor-card fade-in">
         <div class="instructor-image">
           <div class="instructor-photo">
-            <img src="./img/講師紹介.jpg" alt="講師 ちひろ">
+            <img src="./img/ちひろさん_プロフ写真_新.jpg" alt="講師 ちひろ">
           </div>
           <div class="instructor-name-box instructor-name-box-desktop">
             <h3 class="instructor-name">ちひろ</h3>
